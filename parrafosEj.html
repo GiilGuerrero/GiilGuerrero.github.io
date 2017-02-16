@@ -12,15 +12,49 @@
 
 <!-- El elemento title contiene el nombre de la pagina, se muestra en la pestaña del navegador -->
 <title> HOLA MUNDO </title>
+ <link href="style.css" rel="stylesheet">
 
 <!-- El elemeno meta especifica informaciòn adicional (metadatos) y no requiere etiqueta de cierre -->
 <meta charset="utf-8">
 </head>
 
-<body>
+<body style="background-color: lightgray";>
 <!-- El elemento body contiene informaciòn que se visualizarà en el navegador como el contenido de la pàgina -->
+<header id="barra">
+   <nav id="navB">
+       <ul>
+           <li> <a id="aBarra" href="index.html" style="text-decoration: none" color="white">Inicio</a></li>
+           
+           <li> <a id="aBarra" href="Temario.pdf" download="" >Temario del Curso</a></li>
+       </ul>
+   </nav>
+  </header>
 
-<h1>¡Esta es mi primer pagina web!</h1>
+<h1 style="text-align: center; color: firebrick">Texto en HTML</h1>
+   <p>Para manejar texto mediante HTML utilizamos las siguintes <b>etiquetas</b>:
+   <dl>
+       <dt><b>Ecabezados</b></dt>
+       <dd>Se utilizan las etiquetas <"h1"> / <"h6">,teniendo mayor importancia <"h1"> y menos importancia<"h6"></dd></br> 
+
+       <dt><b>Párrafos</b></dt>
+       <dd>Se utiliza la etiqueta <"p"> para crear un nuevo Párrafo.</dd></br> 
+
+       <dt><b>Saltos de línea</b></dt>
+       <dd>Se utiliza la etiqueta <"br"> para separar un parrafo de otro.</dd></br> 
+
+       <dt><b>Espacios en blanco</b></dt>
+       <dd>Se utiliza "&nbsp" para indicar que hay espacios en blanco en el texto.</dd></br>
+       
+       <dt><b>Negritas</b></dt>
+       <dd>Se utiliza la etiqueta <"b"> para remarcar en negritas un texto.</dd></br> 
+
+       <dt><b>Cursivas</b></dt>
+       <dd>Se utiliza la etiqueta <"i"> para darle un toque de cursiva al texto.</dd></br> 
+
+               
+   </dl> 
+
+<h1>¡Ejemplos de parrafos en HTML!</h1>
 <p>Este es el primer pàrrafo de prueba</p>
 <p>
     Lorem  &nbsp; ipsum dolor sit amet, consectetur adipiscing elit. In eleifend imperdiet tincidunt. Vestibulum aliquet, urna in hendrerit maximus, diam augue molestie massa, et imperdiet ante urna at quam. Proin dapibus, nulla vitae viverra commodo, ipsum tellus malesuada arcu, sed hendrerit ligula metus vehicula enim. Cras pretium lorem ac velit posuere, nec sodales nisi consequat. Nunc nec sapien ut sem placerat iaculis. 
@@ -38,8 +72,7 @@
 <h4>Ejemplo de cursivas</h4>
 <p>Este es un pàrrafo que usa <i>cursivas</i>.</p>
 
-<!-- Regresar al inicio -->
-        <a href="index.html"> <i>Regresar al índice</i> </a> </dd>
+
 </body>
 
 </html>

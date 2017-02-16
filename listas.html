@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Listas</title>
+    <link href="style.css" rel="stylesheet">
 </head>
-<body>
+
+<body style="background-color: lightgray">
+   <header id="barra">
+   <nav id="navB">
+       <ul>
+           <li> <a id="aBarra" href="index.html" style="text-decoration: none" color="white">Inicio</a></li>
+           
+           <li> <a id="aBarra" href="Temario.pdf" download="" >Temario del Curso</a></li>
+       </ul>
+   </nav>
+  </header>
+  <h1 style="text-align: center; color: firebrick">Listas en HTML</h1>
+
+  <p>Cada lista en HTML está compuesta por elementos y pueden ser de 3 tipos:</p>
+  <dl>
+      <b><dt>Ordenadas</dt></b> </br>
+      <dd>Utiliza la etiqueta <"ol"> para crearla</dd></br>
+      <dd>Utiliza la etiqueta <"li"> para especificar los elementos.</dd> </br>
+
+     <b><dt>No Ordenadas</dt></b></br>
+      <dd>Utiliza la etiqueta <"ul"> para crearla</dd></br>
+      <dd>Utiliza la etiqueta <"li"> para especificar los elementos.</dd></br>
+
+      <b><dt>De descripción</dt></b>  </br>  
+      <dd>Utiliza la etiqueta <"dl"> para crearla</dd></br>
+      <dd>Utiliza las etiquetas <"dt"> y <"dd"> para especificar los elementos.</dd></br>
+  </dl>
+
+  </ul>
+    
     <h2>Listas ordenadas</h2>
     <ol>
         <li>Primer elemento</li>
@@ -28,7 +58,6 @@
          <dt>JavaScript</dt>
          <dd>Lenguaje para especificar el comportamiento de una página web.</dd>
      </dl>
-     <!-- Regresar al inicio -->
-        <a href="index.html"> <i>Regresar al índice</i> </a> </dd>
+     
 </body>
 </html>
