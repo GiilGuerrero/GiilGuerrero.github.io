@@ -1,44 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
-    <title>Indice</title>
+    <title>Bienvenido</title>
+    <link href="style.css" rel="stylesheet">
+
 </head>
-<body>
 
-    <!--Tarea:
-    Crear un menu de los ejemplos hechos en clase, usando una lista de enlaces a las paginas creadas.
-    
-    En cada pagina agregar un enlace para regresar al índice.
-    -->
-     <header>
-        <h1>Temas vistos en clase</h1>
-    </header>
-          
-    <h2>HTML</h2>
-     
-     <dl>
-         <dt>Texto en HTML</dt>
-         <dd> <a href="parrafos.html">Ejemplos de texto en HTML </a> <br/><br/><br/>  </dd>
 
-         <dt>Estructuras en HTML</dt>
-         <dd> <a href="estructura.html">Ejemplos de estructuras en HTML</a> <br/><br/><br/> </dd>
+<body style="background-color: lightgray">
+  
+<img src="logo.jpg" alt="logo" style="position: absolute;width: 250px;height: 180px;top:68px;left:1045px">
+
+  <header id="barra">
+   <nav id="navB">
+       <ul>
+           <li> <a id="aBarra" href="index.html" style="text-decoration: none" color="white">Inicio</a></li>
+           
+           <li> <a id="aBarra" href="Temario.pdf" download="" >Temario del Curso</a></li>
+       </ul>
+       
+   </nav>
+  </header>
+
+  <header id="portada">
+      <h1 style="font-size: 45px;color: papayawhip;">¡Bienvenido a mi Blog!</h1>
+      <h3>Blog de la materia de Tecnologías Web &nbsp &nbsp -Área de Computación e Informática-</h3>
+      <h4>Facultad de Ingeniería UASLP</h4>
+  </header>
+
+
+
+  
+
+ 
+<!--
+<a href="HTML.html"><img id="LogoHTML" src="logoHtml.png" alt="tablasHTML" height="250" width="250px"></a>
+
+<a id="temas1" href="HTML.html">Temas de HTML</a>
+-->
+<p id="titulo">HTML(Hyper Text Markup Language)</p>
+  
+  <p id="intro">Las páginas HTML son documentos de texto. HTML usa <b> elementos </b> para definir la <b>estructura</b> de la página, estos elementos se definen por <b>etiquetas</b> encerradas en parentesis angulares < >. </p>
+  <p>El <b>contenido</b> de un elemento se encierra entre etiquetas.Existen <b>etiquetas de apertura</b>(<"etiqueta">) y <b>de cierre</b> (<"/etiqueta">). El nombre de la etiqueta debe ser el mismo y se distingue a las de cierre con un "/".</p>
+  <p style="padding-bottom: 30px;">Las etiquetas pueden tener atributos los cuales se especifican en la etiqueta de inicio.</p>
+
+<div>
+     <ul style="margin-top: 0px; padding-left: 10px;">
+        <a href="tablasEj.html"> <h5>Tablas en HTML <i>3/Febrero/2017</i></h5></a>
+        <p style="margin-top: 5px;">Uso de tablas en HTML, así como su estructura y sintaxis.</p>
                  
-         <dt>Enlaces en HTML</dt>
-         <dd> <a href="enlaces.html">Ejemplos de enlaces en HTML</a> <br/><br/><br/> </dd>
-         
-         <dt>Imágenes en HTML</dt>
-         <dd> <a href="imagenes.html">Ejemplos de imágenes en HTML</a> <br/><br/><br/> </dd>
-         
-         <dt>Listas en HTML</dt>
-         <dd> <a href="listas.html">Ejemplos de listas en HTML</a> <br/><br/><br/> </dd>
-         
-         <dt>Tablas en HTML</dt>
-         <dd> <a href="Tablas en HTML.html">Ejemplos de tablas en HTML</a> <br/><br/><br/> </dd>
-            
-         <dt>Agrupaciones en HTML</dt>
-         <dd> <a href="agrupaciones.html">Ejemplos de agrupaciones en HTML</a> <br/><br/><br/> </dd>
-     
- <p>&copy; G.G.R Todos los derechos reservados, 2017, S.L.P.</p>
+      </ul>
+</div> 
+
+<div>
+     <ul style="margin-top: 0px; padding-left: 10px;">
+        <a href="parrafosEj.html"> <h5>Texto en HTML <i>1/Febrero/2017</i></h5></a>
+        <p style="margin-top: 5px;">Etiquetas especiales para utilizar texto en una página web</p>
+                 
+      </ul>
+</div>
+
+<div>
+     <ul style="margin-top: 0px; padding-left: 10px;">
+        <a href="listas.html"> <h5>Listas en HTML <i>1/Febrero/2017</i></h5></a>
+        <p style="margin-top: 5px;">Manejo de listas en HTML(Ordenadas, No Ordenadas y de Descripción)</p>
+                 
+      </ul>
+</div>
+
+<div style="position: absolute; top: 650px;left: 250px;">
+     <ul style="margin-top: 0px; padding-left: 10px;">
+        <a href="imagenes.html"> <h5>Imagenes en HTML <i>1/Febrero/2017</i></h5></a>
+        <p style="margin-top: 5px;">Etiquetas y atributos de imagenes para HTML.</p>
+                 
+      </ul>
+</div>
+
+<div style="position: absolute; top: 650px;left: 650px;">
+     <ul style="margin-top: 0px; padding-left: 10px;">
+        <a href="enlaces.html"> <h5>Enlaces en HTML <i>1/Febrero/2017</i></h5></a>
+        <p style="margin-top: 5px;">Tipos de enlaces y estiquetas en HTML.</p>
+                 
+      </ul>
+</div>
+
+
+
+
 </body>
+
 </html>
