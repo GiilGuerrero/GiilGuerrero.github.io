@@ -1,0 +1,121 @@
+#barra{
+        background-color: #333;
+        height: 60px;
+        
+       
+        
+        
+}
+
+#portada{
+    background-color: limegreen;
+    height:180px;  
+    padding-left: 20px;
+   
+    
+    
+    
+}
+
+
+#navB{
+    float: right;
+ 
+}
+
+#navB ul{
+        list-style: none;
+        margin: 0;
+        padding-right: 20px;
+        padding: 0;
+}
+
+#navB ul li{
+    display: inline-block;
+    line-height: 80px; 
+     
+      
+}
+
+#navB ul li a{
+     text-decoration: none;
+     padding: 0 25px;
+     
+}
+
+#aBarra{
+    color: white;
+}
+
+h1{
+     color: firebrick;
+     margin-top: 0px; 
+     padding-top: 10px;
+     
+}
+
+#titulo{
+    text-align: left;
+    font-size: 30px;
+    border-bottom: solid;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    color: crimson;
+    
+    
+}
+
+#intro{
+    
+    margin-top: 0px;
+}
+
+#LogoHTML{
+    position: absolute;
+    top: 300px;
+    left:250px;
+     
+}
+
+#temas1{
+    position: absolute;
+    top: 550px;
+    left: 275px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+   
+
+}
+
+div{
+   
+    width: 350px;
+    height: 100px;
+    background-color: lightgray;
+    text-decoration: none;
+    display: inline-flex;
+    margin-right: 40px;
+    border: solid;
+    
+    
+      
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+h5{
+    color: darkgreen;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
