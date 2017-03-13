@@ -148,3 +148,7 @@ p{
 .enlaces{
     color: blue;
 }
+
+body{
+    background-color: lightgray;
+}
