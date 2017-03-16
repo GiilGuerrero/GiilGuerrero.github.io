@@ -24,29 +24,29 @@
    <h1 style="text-align: center; color: firebrick">Tablas en HTML</h1>
    <p>Para manejar tablas mediante HTML utilizamos las siguientes <b>etiquetas</b>:
    <dl>
-       <dt><b>Tabla</b> &lttable</dt>
-       <dd>Indica el principio y fin de la tabla</dd></br>
+       <dt><b>Tabla</b> &lt; table &gt;</dt>
+       <dd>Indica el principio y fin de la tabla</dd>
        
-       <dt><b>Descripción</b> &ltcaption></dt>
-       <dd>Se usa para describir la función de la tabla</dd></br>
+       <dt><b>Descripción</b> &lt; caption &gt;</dt>
+       <dd>Se usa para describir la función de la tabla</dd>
 
-       <dt><b>Encabezado</b> &ltthead></dt>
-       <dd>Para el título de la tabla</dd></br>
+       <dt><b>Encabezado</b> &lt; thead &gt;</dt>
+       <dd>Para el título de la tabla</dd>
 
-       <dt><b>Pie de página</b> &ltfoot></dt>
-       <dd>Para eagregar un pie de página</dd></br>
+       <dt><b>Pie de página</b> &lt; foot &gt;</dt>
+       <dd>Para eagregar un pie de página</dd>
        
-       <dt><b>Cuerpo de página</b> &lttbody></dt>
-       <dd>Para agregar contenido a la tabla</dd></br>
+       <dt><b>Cuerpo de página</b> &lt; tbody &gt;</dt>
+       <dd>Para agregar contenido a la tabla</dd>
        
-       <dt><b>Fila</b> &lttr> <i>(table row)</i></dt>
-       <dd>Para agregar una fila en la tabla</dd></br>
+       <dt><b>Fila</b> &lt; tr &gt; <i>(table row)</i></dt>
+       <dd>Para agregar una fila en la tabla</dd>
        
-       <dt><b>Celda del encabezado</b> &ltth></dt>
-       <dd>Representra la primer celda de una fila</dd></br>
+       <dt><b>Celda del encabezado</b> &lt; th &gt;</dt>
+       <dd>Representra la primer celda de una fila</dd>
        
-       <dt><b>Celda del contenido</b> &lttd></dt>
-       <dd>Para las celdas de la tabla</dd></br>
+       <dt><b>Celda del contenido</b> &lt; td &gt;</dt>
+       <dd>Para las celdas de la tabla</dd>
        
        
    </dl>
@@ -75,13 +75,14 @@
                <td>Tec. Web.</td>
                <td>8</td>
            </tr>
+        </tbody>  
 
-           <tfoot>
+        <tfoot>
              <tr>
                <td>Total.</td>
                <td>28</td>
             </tr>
-        </tbody>       
+        </tfoot>     
      </table>
     
     <!-- Ejercicio: crear tabla de horario-->
@@ -96,8 +97,6 @@
                <th>Jueves</th>
                <th>Viernes</th>
                
-           </tr>
-           <tr>
            </tr>
        </thead>
        <tbody>
@@ -152,19 +151,14 @@
                <td>Estructuras de Archivos</td>
            </tr>
 
-           <tr>
-           </t>
-           <tr>
-           </tr>
-           <tfoot>
-             <tr>
-               <td>Horario 2016/2017 II</td>
-               
-            </tr>
-        </tbody>       
+           
+           
+        </tbody> 
+       
+        
      </table>
    
-   </dd>    
+
   
     </body>
 </html>
